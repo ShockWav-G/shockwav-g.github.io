@@ -5,6 +5,7 @@ const btntble2 = document.getElementById("btntble2");
 const ObsRio = document.getElementById("ObsRio");
 const PropuestasRio = document.getElementById("PropuestasRio");
 const PasadoRio = document.getElementById("PasadoRio");
+const Maqueta = document.getElementById("Maqueta");
 
 btn.addEventListener("click", () => {
 
@@ -30,4 +31,7 @@ PropuestasRio.addEventListener("click", () => {
 });
 PasadoRio.addEventListener("click", () => {
   location.href = "/content/Pasado.html";
+});
+Maqueta.addEventListener("click", () => {
+  location.href = "/content/Maqueta.html";
 });
