@@ -40,4 +40,3 @@ Maqueta.addEventListener("click", () => {
 
 
 
-alert("lol");
