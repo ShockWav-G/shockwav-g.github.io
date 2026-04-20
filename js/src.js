@@ -35,3 +35,9 @@ PasadoRio.addEventListener("click", () => {
 Maqueta.addEventListener("click", () => {
   location.href = "/content/Maqueta.html";
 });
+
+
+
+
+
+alert("lol");
