@@ -3,17 +3,42 @@
   align-items: flex-start;
   width: fit-content;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 5rem;
   display: flex;
 }
 
 .Obs_btn {
   background-color: rgb(110, 110, 110);
   margin-bottom: 2rem;
-  margin-left: 2rem;
-  padding: 1rem;
+  padding: 2rem;
   border-bottom: 0.05rem solid black;
   font-size: 120%;
-  width: 10rem;
+  width: 14rem;
+  height: 10rem;
   cursor: pointer;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Obs_btnContainer {
+    padding: 0.6rem;
+    align-items: flex-start;
+    width: fit-content;
+    flex-wrap: wrap;
+    gap: 1rem;
+    display: flex;
+  }
+
+  .Obs_btn {
+    background-color: rgb(110, 110, 110);
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    border-bottom: 0.05rem solid black;
+    font-size: 110%;
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+  }
+
 }
