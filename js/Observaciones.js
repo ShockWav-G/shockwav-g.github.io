@@ -4,6 +4,7 @@ const RegresoNutria = document.getElementById("RegresoNutria");
 const EspeciesInvasoras = document.getElementById("EspeciesInvasoras");
 const Analisis = document.getElementById("Analisis");
 const Analisis2 = document.getElementById("Analisis2");
+const Analisis3 = document.getElementById("Analisis3");
 const Flora = document.getElementById("Flora");
 const UsosTajo = document.getElementById("UsosTajo");
 const Fauna = document.getElementById("Fauna");
@@ -29,6 +30,11 @@ Analisis.addEventListener("click", () => {
 })
 Analisis2.addEventListener("click", () => {
   display.setAttribute("src", "/res/Analisis2.pdf");
+  display.setAttribute("style", "z-index:100; height: 600px");
+  sc();
+})
+Analisis3.addEventListener("click", () => {
+  display.setAttribute("src", "/res/Analisis3.pdf");
   display.setAttribute("style", "z-index:100; height: 600px");
   sc();
 })

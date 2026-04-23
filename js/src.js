@@ -26,6 +26,7 @@ const btns_cont = `
 		<span class="btn" id="Maqueta2">Maqueta del río 2</span>
 		<span class="btn" id="Libro">Libro de propuestas</span>
 		<span class="btn" id="Entrevista">Entrevista de mejora</span>
+		<span class="btn" id="Exposicion">Vídeo de exposición de otros proyectos</span>
 	</span>
 
 `;
@@ -43,6 +44,7 @@ const Maqueta = document.getElementById("Maqueta");
 const Maqueta2 = document.getElementById("Maqueta2");
 const Libro = document.getElementById("Libro");
 const Entrevista = document.getElementById("Entrevista");
+const Exposicion = document.getElementById("Exposicion");
 
 
 btn.addEventListener("click", () => {
@@ -86,4 +88,7 @@ Entrevista.addEventListener("click", () => {
 });
 
 
+Exposicion.addEventListener("click", () => {
+  location.href = "/content/Exposicion.html";
+});
 
