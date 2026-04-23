@@ -6,7 +6,7 @@ const menu_cont = `
 <div class="menu"> 
     <span style="cursor: pointer;" onclick="location.href='/'"> Conoce Tu Río </span> 
     <span class="btn_menu" id="btn1"> Contenido técnico </span> 
-    <span class="btn_menu" id="btn2"> Proyectos artísticos </span> 
+    <span class="btn_menu" id="btn2"> Proyectos extras</span> 
 </div>`;
 
 // 3. Insertar el contenido
@@ -22,8 +22,10 @@ const btns_cont = `
 	</span>
 	<span class="btn_table" id="btntble2">
 
-		<span class="btn" id="Maqueta">Maqueta del río</span>
+		<span class="btn" id="Maqueta">Maqueta del río 1</span>
+		<span class="btn" id="Maqueta2">Maqueta del río 2</span>
 		<span class="btn" id="Libro">Libro de propuestas</span>
+		<span class="btn" id="Entrevista">Entrevista de mejora</span>
 	</span>
 
 `;
@@ -38,7 +40,9 @@ const ObsRio = document.getElementById("ObsRio");
 const PropuestasRio = document.getElementById("PropuestasRio");
 const PasadoRio = document.getElementById("PasadoRio");
 const Maqueta = document.getElementById("Maqueta");
+const Maqueta2 = document.getElementById("Maqueta2");
 const Libro = document.getElementById("Libro");
+const Entrevista = document.getElementById("Entrevista");
 
 
 btn.addEventListener("click", () => {
@@ -69,11 +73,17 @@ PasadoRio.addEventListener("click", () => {
 Maqueta.addEventListener("click", () => {
   location.href = "/content/Maqueta.html";
 });
+Maqueta2.addEventListener("click", () => {
+  location.href = "/content/Maqueta2.html";
+});
 
 Libro.addEventListener("click", () => {
   location.href = "/content/Libro.html";
 });
 
+Entrevista.addEventListener("click", () => {
+  location.href = "/content/Entrevista.html";
+});
 
 
 
