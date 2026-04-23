@@ -24,7 +24,7 @@ function setVid() {
   display.innerHTML = contv;
 }
 function sc() {
-  display.scrollintoView({ block: "start" });
+  display.scrollIntoView({ block: "start" });
 }
 
 Plogging.addEventListener("click", () => {
